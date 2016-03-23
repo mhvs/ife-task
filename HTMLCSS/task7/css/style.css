@@ -1,0 +1,122 @@
+* {margin: 0; padding: 0; border: 0; }
+.fl {float: left; }
+.fr {float: right; }
+/* 清除浮动 */
+.clearfix:after {content: "."; display: block; clear: both; height: 0; overflow: hidden; visibility: hidden;}
+.clearfix {zoom:1;}
+a:hover {color: #e74f4d; cursor: pointer; }
+
+/* 头部部分 */
+header {height: 55px; width: 1280px; margin: 0 auto 5px ; }
+header .logo-small{margin: 10px auto auto 60px; }
+header .pd-name {display: inline-block; font: 21px "黑体"; margin-bottom: 10px;}
+header nav { margin: 16px 0;}
+header nav li {display: inline; font: 14px "微软雅黑"; color: #787b83; padding: 20px; cursor: pointer; }
+header nav li:hover {border-bottom: 5px solid #e74f4d; }
+header .login { margin: 16px 67px 0 0; cursor: pointer; }
+header .login span{ font: 14px "微软雅黑"; color: #e74f4d;}
+
+/* 大海报部分 */
+.poster {position: relative; width: 1280px; overflow: hidden; margin: 0 auto;}
+.poster p {position: absolute; top: 226px; left:115px;}
+.poster .text {top: 226px; left: 115px; font: 60px "微软雅黑"; color: #fff; }
+.poster .dec {top: 310px; left: 115px; font: 21px "微软雅黑"; color: #fff; }
+.poster .btn {top:428px; left: 115px; width: 330px; height: 62px; background-color: #e8504e; color: #fff; font: 30px/62px "微软雅黑"; cursor: pointer; text-align: center; }
+.poster .btn:hover {background-color: #f9615f;}
+.poster a:hover {color: #fff; }
+
+/* 四个图标部分 */
+.banner {position: relative; width: 1280px; margin: 0 auto;}
+.banner div {display: inline-block; width: 314px; margin-bottom: 68px; }
+.banner i {display: block; width: 42px; height: 42px; margin: 66px 136px;}
+.banner1 i {background-image: url("../image/banners.png"); }
+.banner2 i {background: url("../image/banners.png") no-repeat -42px; }
+.banner3 i {background: url("../image/banners.png") -84px; }
+.banner4 i {background: url("../image/banners.png") -126px; }
+.banner p {font: 14px "黑体"; color: #767777; width: 160px; text-align: center; padding-left: 77px; padding-bottom: 21px; border-left: 2px solid #999;}
+.banner1 p{border-left: 0;}
+
+/* 组织活动部分 */
+.evt {width: 1280px; margin: 0 auto;}
+.que {background-color: #ececec; }
+.que img {display: block; margin: 0 auto; padding-top: 88px; }
+.que p {font: 54px "黑体"; color: #a1a1a1; text-align: center; padding: 50px 0;}
+
+.loc {height: 340px; background-image: url("../image/map.jpg"); }
+.loc .fdtext1 { font: 21px "微软雅黑"; color: #fff; padding-top: 52px; text-align: center; margin-bottom: 10px;}
+.loc hr{width: 30px; margin: 0 auto 20px; height: 1px; background-color: #fff;  border: 1px solid #fff; }
+.loc .fdtext2 {font: 12px "微软雅黑"; color: #fff;  text-align: center; margin-bottom: 50px;}
+
+.select-loc .loc-list {position: relative; text-align: center; }
+.select-loc .list ul li ,.select-loc .btn {display: inline-block; width: 235px; height: 35px; text-align: left; }
+.select-loc .list ul li span {color: #fff; }
+.select-loc .list ul li:hover {background-color: #be4e48; }
+.select-loc button {width: 100%; height: 100%; background-color: #bf4f49; font: 14px "微软雅黑"; color: #fff; cursor: pointer; }
+.select-loc .list {position: absolute; top: 0; display: inline-block; width: 235px; max-height: 35px; background-color: #fff; overflow: hidden; line-height: 35px; border: 1px solid #bc7d77; }
+.select-loc .list::after { content: "V"; display: inline-block; position: absolute; top: 8px; right: 8px; width: 18px; height: 18px; background-color: #be4e48; line-height: 18px; color: #fff; }
+.select-loc .list:hover {max-height: none; cursor: pointer; }
+.select-loc .list1 {left: 126px; }
+.select-loc .list2 {left: 390px; }
+.select-loc .list3 {left: 655px; }
+.select-loc .btn {position: absolute; top: 0; left: 920px; }
+
+/* 四个城市的活动情况 */
+.evt-posters {background-color: #f8f8f7; }
+.evt-posters .posters {text-align: center; }
+.evt-posters .posters div {display: inline-block; margin: 100px 20px 115px; }
+.evt-posters .posters p {margin: 6px 0; }
+.evt-posters .posters p:first-of-type {font: 16px "微软雅黑"; }
+.evt-posters .posters p:last-of-type {font-size: 12px; color: #909191; }
+.evt-posters .poster2 p:first-of-type {font-size: 20px; }
+
+.evt-dec .dec1 {height: 564px; }
+.evt-dec .dec1-text {display: inline-block; padding: 166px 70px 114px; }
+.evt-dec .dec1-text h2 {text-align: center; font: 30px "微软雅黑"; margin-bottom: 30px; }
+.evt-dec .dec1-text span {color: #e74f4d; }
+.evt-dec .dec1-text p {width: 290px; margin-bottom: 50px; color: #c6c6c6;}
+.evt-dec .dec1-text button { width: 103px; height: 31px; color: #e25c60; background-color: #fff; border: 1px solid #e25c60; cursor: pointer; margin: 0 0 24px 95px; }
+.evt-dec .dec1-text div {margin: 0 auto;}
+.evt-dec .dec1-text i {display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #929292; margin: 0 4px; cursor: pointer;}
+.evt-dec .dec1-text i:first-of-type {margin-left: 115px; }
+.evt-dec .dec1-text i:hover {background-color: #929292; }
+
+.evt-dec .dec2 {display: flex; width: 100%; }
+.evt-dec .dec2 div {flex: 1 0; text-align: center; }
+.evt-dec .dec2 .p1 {background-color: #e74f4d; padding-top: 172px; }
+.evt-dec .dec2 .p2 {background-color: #fff; padding-top: 172px; }
+.evt-dec .dec2 p { font: 21px "黑体"; margin-bottom: 10px; }
+.evt-dec .p1 p {color: #fff; }
+.evt-dec .p2 p {color: #e74f4d; }
+.evt-dec hr {width: 30px; height: 1px; background-color: #fff; border: 1px solid #fff; margin: 25px auto; }
+.evt-dec .p2 hr {background-color: #aaaaaa; border: 1px solid #aaaaaa;}
+.evt-dec .dec2 button {width: 169px; height: 43px; background-color: transparent; color: #fff; border: 1px solid #fff; cursor: pointer; }
+.evt-dec .dec2 .p2 button {color: #e74f4d; border: 1px solid #e74f4d;}
+
+/* 招募志愿者 */
+.vol {width: 1280px; margin: 0 auto; }
+.vol .header {text-align: center; margin: 0 auto; }
+.vol .header h2 {font: 21px "黑体"; margin-top: 120px; }
+.vol .header hr {width: 30px; height: 1px; background-color: #ea6563; border: 1px solid #ea6563; margin: 10px auto 15px;}
+.vol .header p {width: 424px; font: 12px "微软雅黑"; color: #aaa; margin: 0 auto 106px; }
+
+.vol .vol-form div {display: inline-block; }
+.vol .dec {width: 280px; padding: 0 76px 166px 138px; }
+.vol .dec h2 {font: 14px "黑体"; color: #231815; margin-bottom: 25px; }
+.vol .dec p {width: 290px; font: 12px "宋体"; color: #231815; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+.vol .dec button {margin: 10px 0 36px 242px; background-color: transparent; cursor: pointer; }
+.vol .form {position: relative; bottom: 16px; width: 764px; }
+.vol .form input {width: 278px; height: 10px; background-color: #ececee; margin: 0 20px 18px 0; padding: 16px; }
+.vol .form .textbox {width: 640px; height: 120px; padding: 0; }
+.vol .form button {width: 640px; height: 40px; cursor: pointer; background-color: #ececee; color: #323333; }
+
+/* 底部 */
+footer {width: 100%; height: 416px; }
+footer .cnt {height: 358px; background-color: #32353e; text-align: center; }
+footer .cnt h2 {font: 21px "黑体"; color: #fff; padding: 90px 0 12px; }
+footer .cnt p {font: 12px "宋体"; color: #a6a7aa; width: 470px; margin: 0 auto; }
+footer .cnt input {width: 400px; height: 10px; padding: 15px; }
+footer .cnt button {position: relative; top: 2px; width: 80px; height: 40px; margin: 30px 0; font: 15px "微软雅黑";  background-color: #6f7178; color: #fff; }
+footer .cnt img {margin: 0 14px; }
+footer .btm {height: 58px; background-color: #2f2f38; }
+footer .btm span {font: 12px "宋体"; color: #fff; margin: 32px 0 0 100px; }
+footer .btm a{font: 12px "宋体"; color: #fff; margin: 32px 40px 0 0; text-decoration: none; }
